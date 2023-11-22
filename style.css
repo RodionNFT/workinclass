@@ -1,0 +1,36 @@
+p:hover {
+  color:pink;
+  font-weight:200;
+}
+
+  
+p::before {
+  content: 'Hi!';
+  color:purple;
+  font-weight:600;
+
+}
+
+p::after {
+  content: 'Bye!';
+  color:gray;
+  font-weight:600;
+}
+
+p::selection {
+  color:purple;
+
+}
+
+
+.test {
+  visibility: hidden;
+}
+
+.testing {
+  opacity: 0.1
+}
+
+.test1 {
+ display: block;
+}
